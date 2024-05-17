@@ -1,0 +1,46 @@
+{
+  "name": "ibm-connect",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "ibm-connect\r =========================",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "ibm",
+    "db2",
+    "connect"
+  ],
+  "author": "Isadora Dantas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaahmdantas/ibm-connect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isaahmdantas/ibm-connect/issues"
+  },
+  "homepage": "https://github.com/isaahmdantas/ibm-connect.git",
+  "dependencies": {
+    "ibm_db": "^3.2.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/ibm_db": "^2.0.16",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.25",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jest": "^27.9.0",
+    "eslint-plugin-react": "^7.34.0",
+    "jest": "^29.7.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.2"
+  }
+}
