@@ -2,7 +2,7 @@
   "name": "ibm-connect",
   "type": "module",
   "version": "1.0.0",
-  "description": "ibm-connect\r =========================",
+  "description": "O IBM-CONNECT é uma biblioteca em node.js para realizar a conexão com banco db2 da IBM.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -12,7 +12,9 @@
   "keywords": [
     "ibm",
     "db2",
-    "connect"
+    "connect",
+    "database",
+    "connection"
   ],
   "author": "Isadora Dantas",
   "license": "MIT",
